@@ -1,0 +1,5 @@
+server.port: 8080
+spring.application.name: api-gateway
+eureka.client.service-url.defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+security.jwt.secret: ${JWT_SECRET:student-hotel-demo-secret-at-least-32-characters}
+eureka.instance.hostname: localhost

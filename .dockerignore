@@ -1,0 +1,9 @@
+.git
+**/target
+**/.idea
+**/*.iml
+logs
+.run
+**/__pycache__
+**/*.pyc
+.DS_Store
